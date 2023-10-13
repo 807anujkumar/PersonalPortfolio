@@ -182,7 +182,7 @@ color: rgb(243, 243, 243);
 border-radius: 6px;
  
  }
-.btm:hover{
+ .buttom :hover{
     transform: scale(1.2);
     transition: all;
     transition-duration: 2s;
