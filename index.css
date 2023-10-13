@@ -180,12 +180,13 @@ text-align: center;
 background: linear-gradient(90deg, rgb(232, 33, 156) -2%, rgba(24,111,121,1) 0%, rgb(45, 121, 236) 0%, rgb(195, 24, 214) 19%, rgba(60,87,232,1) 33%, rgb(9, 22, 205) 100%);
 color: rgb(243, 243, 243);
 border-radius: 6px;
-cursor: pointer;
+ 
  }
- .buttom .btm:hover{
+.btm:hover{
     transform: scale(1.2);
     transition: all;
     transition-duration: 2s;
+    cursor: pointer;
 
  }
  .left_side_home2.active{
