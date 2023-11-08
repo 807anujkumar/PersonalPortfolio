@@ -91,6 +91,9 @@ background: linear-gradient(90deg, #00FFEB 0%, #209abc 0%, #567dd3 5%, #073ABB 1
 
       /* width: 250PX;
       height: 120PX; */
+     display: flex;
+     justify-content: center;
+      
 
        
 }
@@ -115,17 +118,18 @@ background: linear-gradient(90deg, #00FFEB 0%, #209abc 0%, #567dd3 5%, #073ABB 1
 }
 .contnat1{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: row;
     flex-wrap: wrap;
     column-gap: 10px;
-     width: 250PX;
-      height: 110PX;
+     width: 260PX;
+      height: 70PX;
       margin-top: 10%;
       /* color: white; */
 }
 .left_side_home2 a{
-    font-size:xx-large;
+    font-size:large;
     font-weight: bold;
      color: aliceblue;
 
@@ -180,6 +184,7 @@ text-align: center;
 background: linear-gradient(90deg, rgb(232, 33, 156) -2%, rgba(24,111,121,1) 0%, rgb(45, 121, 236) 0%, rgb(195, 24, 214) 19%, rgba(60,87,232,1) 33%, rgb(9, 22, 205) 100%);
 color: rgb(243, 243, 243);
 border-radius: 6px;
+outline-width: 0;
  
  }
  .buttom :hover{
@@ -187,10 +192,11 @@ border-radius: 6px;
     transition: all;
     transition-duration: 2s;
     cursor: pointer;
+    outline-width: 0;
 
  }
  .left_side_home2.active{
-     opacity: 1;
+     opacity: 01;
  }
 #skills{
    margin:2%;
@@ -446,9 +452,9 @@ h4{
 
     }
     .left_side_home2{
-        width: 300px;
-        height: 100;
-        margin-bottom: 70%;
+        width: 200px;
+        height: 10;
+        margin-bottom:50%;
     }
     .right_side2{
         display: flex;
@@ -463,4 +469,5 @@ h4{
        border-radius: 4px;
         
     }
+
   }
