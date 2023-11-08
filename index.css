@@ -408,7 +408,7 @@ h4{
     .menu_bar {
       opacity: 1;
       font-size: xx-large;
-      margin-left: 10px;
+      margin-left: 4%;
        margin-top: -15%;
     }
     .right_side{
@@ -431,8 +431,11 @@ h4{
         
     }
     .Home .right_side_home img{
-        width: 150px;
-        height: 100px;
+        width: 80px;
+        height: 70px;
+     margin-bottom:1050px;
+     margin-left: 150px ;
+
     }
     .left_side_home{
         display: flex;
